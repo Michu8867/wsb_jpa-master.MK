@@ -1,7 +1,7 @@
 package com.capgemini.wsb.persistence.entity;
 
-import java.time.LocalDateTime;
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "VISIT")
@@ -31,7 +31,6 @@ public class VisitEntity {
 	@JoinColumn(name = "MEDICAL_TREATMENT_ID")
 	private MedicalTreatmentEntity medicalTreatment;
 
-	// Getters and setters
 	public Long getId() {
 		return id;
 	}

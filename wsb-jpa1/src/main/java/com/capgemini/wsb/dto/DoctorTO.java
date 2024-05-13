@@ -11,7 +11,6 @@ public class DoctorTO {
     private String doctorNumber;
     private Specialization specialization;
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }
